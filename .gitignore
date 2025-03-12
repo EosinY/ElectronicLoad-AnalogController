@@ -1,0 +1,10 @@
+*-backups
+*.zip
+fp-info-cache
+fp-lib-table
+*.lck
+*.sch-bak
+*.kicad_prl
+*.gbr
+*.gbrjob
+*.drl
