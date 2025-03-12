@@ -8,3 +8,4 @@
 Gerber/*.gbr
 Gerber/*.gbrjob
 Gerber/*.drl
+production/*.zip

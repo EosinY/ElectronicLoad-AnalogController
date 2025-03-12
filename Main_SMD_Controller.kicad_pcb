@@ -3665,7 +3665,7 @@
 		(descr "Model: 2DC0005D100, Code: 101604  (Model: MJ-179PH, Code: 106568)")
 		(tags "Power Jack")
 		(property "Reference" "J1"
-			(at 5.25 5.75 90)
+			(at 2.955 -5.588 90)
 			(layer "F.SilkS")
 			(uuid "373179e6-4968-4a00-bdac-e157145ef79d")
 			(effects
