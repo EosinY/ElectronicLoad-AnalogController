@@ -1,10 +1,10 @@
-*-backups
+*-backups/*.*
+./fp-info-cache
+./fp-lib-table
 *.zip
-fp-info-cache
-fp-lib-table
 *.lck
-*.sch-bak
+*.kicad_sch-bak
 *.kicad_prl
-*.gbr
-*.gbrjob
-*.drl
+Gerber/*.gbr
+Gerber/*.gbrjob
+Gerber/*.drl
