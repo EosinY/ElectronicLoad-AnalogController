@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Fujisawa")(type "KiCad")(uri "${KIPRJMOD}/Fujisawa.pretty")(options "")(descr ""))
+)
