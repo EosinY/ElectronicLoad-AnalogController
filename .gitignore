@@ -8,4 +8,6 @@ fp-lib-table
 Gerber/*.gbr
 Gerber/*.gbrjob
 Gerber/*.drl
-production/*.zip
+
+production/*
+*.json
