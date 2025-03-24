@@ -2,6 +2,7 @@
 fp-info-cache
 fp-lib-table
 *.zip
+*.step
 *.lck
 *.kicad_sch-bak
 *.kicad_prl

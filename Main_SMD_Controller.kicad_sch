@@ -8080,8 +8080,8 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 35.56 148.59 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8884,7 +8884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DMP:DMP-14_10x5_P1.27mm"
+		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
 			(at 73.025 133.35 0)
 			(effects
 				(font
@@ -9513,8 +9513,8 @@
 		(lib_id "Eoshi-chan:Eoshi-chan_Silk")
 		(at 35.56 121.92 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4b1c935b-8c76-4282-aee4-464091058d78")
@@ -10246,7 +10246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DMP:DMP-14_10x5_P1.27mm"
+		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
 			(at 193.675 135.255 0)
 			(effects
 				(font
@@ -10640,8 +10640,8 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 35.56 161.925 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10794,8 +10794,8 @@
 		(lib_id "Eoshi-chan:Eoshi-chan_Silk")
 		(at 35.56 116.84 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11250,7 +11250,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DMP:DMP-14_10x5_P1.27mm"
+		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
 			(at 142.875 97.79 0)
 			(effects
 				(font
@@ -11744,8 +11744,8 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 35.56 153.035 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12217,8 +12217,8 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 35.56 157.48 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12872,7 +12872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DMP:DMP-14_10x5_P1.27mm"
+		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
 			(at 239.395 138.43 0)
 			(effects
 				(font
@@ -14002,7 +14002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DMP:DMP-14_10x5_P1.27mm"
+		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
 			(at 193.675 141.605 0)
 			(effects
 				(font
@@ -14588,8 +14588,8 @@
 		(lib_id "JLCPCB_Serial:Serial_QR")
 		(at 35.56 129.54 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
