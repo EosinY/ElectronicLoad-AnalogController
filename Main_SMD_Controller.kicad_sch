@@ -7257,7 +7257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Akizuki_ScrewTerminal:ScrewTerminal_01x01_PCB-20"
+		(property "Footprint" "AM_Conn_ScrewTerminal:ScrewTerminal_01x01_PCB-20"
 			(at 252.73 116.205 0)
 			(effects
 				(font
@@ -7533,7 +7533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Akizuki_Relay:HSINDA-943_12A-1C_5p"
+		(property "Footprint" "AM_Relay:HSINDA-943_12A-1C_5p"
 			(at 168.275 93.98 0)
 			(effects
 				(font
@@ -8540,7 +8540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Akizuki_ScrewTerminal:ScrewTerminal_01x01_PCB-20"
+		(property "Footprint" "AM_Conn_ScrewTerminal:ScrewTerminal_01x01_PCB-20"
 			(at 240.665 74.93 0)
 			(effects
 				(font
@@ -9716,7 +9716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Akizuki_BarrelJack:BarrelJack_Horizontal1"
+		(property "Footprint" "AM_Conn_BarrelJack:MJ-179P(H)"
 			(at 26.67 33.401 0)
 			(effects
 				(font
@@ -10572,7 +10572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Akizuki_ScrewTerminal:ScrewTerminal_01x01_PCB-20"
+		(property "Footprint" "AM_Conn_ScrewTerminal:ScrewTerminal_01x01_PCB-20"
 			(at 240.665 92.71 0)
 			(effects
 				(font
@@ -10907,7 +10907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Akizuki_ScrewTerminal:ScrewTerminal_01x01_PCB-20"
+		(property "Footprint" "AM_Conn_ScrewTerminal:ScrewTerminal_01x01_PCB-20"
 			(at 263.525 29.845 0)
 			(effects
 				(font
@@ -11676,7 +11676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Akizuki_ScrewTerminal:ScrewTerminal_01x01_PCB-20"
+		(property "Footprint" "AM_Conn_ScrewTerminal:ScrewTerminal_01x01_PCB-20"
 			(at 263.525 55.88 0)
 			(effects
 				(font
