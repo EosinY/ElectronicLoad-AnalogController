@@ -2116,206 +2116,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
@@ -6218,6 +6018,12 @@
 		(uuid "7eb75ec5-8d69-4110-b6ae-e0930a9ae53e")
 	)
 	(junction
+		(at 143.51 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8655cfac-73f7-46b4-8624-c60031381256")
+	)
+	(junction
 		(at 214.63 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6583,6 +6389,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c92651-33db-4dd7-ac45-58d73a40d12c")
+	)
+	(wire
+		(pts
 			(xy 173.99 30.48) (xy 173.99 36.83)
 		)
 		(stroke
@@ -6920,6 +6736,16 @@
 			(type dash)
 		)
 		(uuid "4adef69a-83c6-4499-8e93-2a993330790e")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd47e49-f348-49c8-8247-feb00b83cdfc")
 	)
 	(wire
 		(pts
@@ -7953,6 +7779,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 111.76) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9564b48-ab05-4989-aced-a6afc0e7904d")
+	)
+	(wire
+		(pts
 			(xy 52.07 157.48) (xy 60.96 157.48)
 		)
 		(stroke
@@ -8500,6 +8336,16 @@
 			(justify left bottom)
 		)
 		(uuid "73b2d5d4-5f97-4326-9b04-323df4572304")
+	)
+	(label "Imeas"
+		(at 109.22 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "834d721e-0c45-43f4-9f67-5ebad73c9953")
 	)
 	(label "TH_1"
 		(at 259.08 92.71 90)
@@ -12799,7 +12645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Connector_Generic:Conn_01x05")
 		(at 104.14 81.28 0)
 		(mirror y)
 		(unit 1)
@@ -12810,7 +12656,7 @@
 		(fields_autoplaced yes)
 		(uuid "657b0864-777f-4e96-8500-61cbeb4a08e6")
 		(property "Reference" "J4"
-			(at 104.14 72.39 0)
+			(at 104.14 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12818,14 +12664,14 @@
 			)
 		)
 		(property "Value" "AnalogIO"
-			(at 104.14 74.93 0)
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 104.14 81.28 0)
 			(effects
 				(font
@@ -12834,7 +12680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/xh.pdf"
+		(property "Datasheet" "~"
 			(at 104.14 81.28 0)
 			(effects
 				(font
@@ -12843,12 +12689,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Akizuki_code" "112249"
@@ -12888,6 +12735,9 @@
 		)
 		(pin "4"
 			(uuid "dafea456-664c-4f7c-85e0-db3b33004688")
+		)
+		(pin "5"
+			(uuid "4c017974-7f54-4cfb-ac82-250c097f4060")
 		)
 		(instances
 			(project ""
