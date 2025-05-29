@@ -12124,7 +12124,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0"
 			(at 85.09 95.885 90)
 			(effects
 				(font
@@ -12402,7 +12402,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3c90e3d0-7503-4627-90d0-dfbafce20309")
 		(property "Reference" "R2"
 			(at 69.723 100.584 0)
@@ -13337,7 +13337,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "0"
 			(at 69.85 95.25 0)
 			(effects
 				(font
@@ -14655,7 +14655,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "811ea97b-d351-4bd2-9e0a-868c51b9ca75")
 		(property "Reference" "C13"
