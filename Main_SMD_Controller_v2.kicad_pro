@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -704,8 +705,8 @@
       "Root"
     ],
     [
-      "d8357f28-8ad4-45b1-a2b6-4cbc2e486fd6",
-      "Power"
+      "e2de0e16-a9d6-47f1-91b9-10aa4d2542d2",
+      "Interface"
     ]
   ],
   "text_variables": {}

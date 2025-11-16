@@ -1,94 +1,290 @@
-Circuit: * C:\Users\EosinY\Documents\KiCad\Proj\ElectronicLoad-AnalogController\VoltMeas.asc
+Circuit: * C:\Users\EosinY\Documents\KiCad\Proj\ElectronicLoad\Main_SMD_Controller\VoltMeas.asc
 
+Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
 Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
 vernier = 0.5
 vernier = 0.25
-Gmin = 3.74144e-005
 vernier = 0.125
 vernier = 0.0625
-Gmin = 3.25869e-005
-vernier = 0.0833333
-vernier = 0.111111
-Gmin = 2.58058e-005
-vernier = 0.148148
-vernier = 0.197531
-Gmin = 1.78355e-005
-vernier = 0.263374
-Gmin = 1.0032e-005
-vernier = 0.351165
-vernier = 0.46822
-Gmin = 3.88882e-006
-vernier = 0.624294
-vernier = 0.832392
-Gmin = 8.9444e-007
-vernier = 1
-Gmin = 1.10074e-007
-Gmin = 1.18191e-008
-Gmin = 1.26906e-009
-Gmin = 1.36264e-010
-Gmin = 1.46313e-011
-Gmin = 1.57102e-012
-Gmin = 1.68687e-013
+Gmin = 0.995033
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.00079
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0.999936
 Gmin = 0
-Gmin stepping succeeded in finding the operating point.
+Gmin stepping failed
 
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
-vernier = 0.5
-vernier = 0.25
-Gmin = 3.74144e-005
-vernier = 0.125
-vernier = 0.166667
-Gmin = 2.78249e-005
-vernier = 0.222222
-Gmin = 1.70856e-005
-vernier = 0.296296
-vernier = 0.395061
-Gmin = 7.63495e-006
-vernier = 0.526748
-vernier = 0.702331
-Gmin = 2.17837e-006
-vernier = 0.936441
-Gmin = 3.22846e-007
-vernier = 1
-Gmin = 3.46653e-008
-Gmin = 3.72216e-009
-Gmin = 3.99664e-010
-Gmin = 4.29136e-011
-Gmin = 4.60781e-012
-Gmin = 4.9476e-013
-Gmin = 0
-Gmin stepping succeeded in finding the operating point.
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 69.7058%
+Source Step = 69.7354%
+Source Step = 69.765%
+Source Step = 69.7946%
+Source Step = 69.8242%
+Source Step = 69.8538%
+vernier = 0.00146484
+Source Step = 69.8938%
+Source Step = 69.9382%
+Source Step = 69.9825%
+Source Step = 70.0269%
+Source Step = 70.0713%
+vernier = 0.00219727
+Source Step = 70.129%
+Source Step = 70.1956%
+Source Step = 70.2622%
+Source Step = 70.3288%
+Source Step = 70.3954%
+vernier = 0.0032959
+Source Step = 70.4786%
+Source Step = 70.5785%
+Source Step = 70.6783%
+Source Step = 70.7782%
+Source Step = 70.8781%
+vernier = 0.00494385
+Source Step = 70.9979%
+Source Step = 71.1478%
+Source Step = 71.2976%
+Source Step = 71.4474%
+Source Step = 71.5972%
+vernier = 0.00741577
+Source Step = 71.7695%
+Source Step = 71.9942%
+Source Step = 72.2189%
+Source Step = 72.4436%
+Source Step = 72.6684%
+vernier = 0.0111237
+Source Step = 72.9156%
+Source Step = 73.2526%
+Source Step = 73.5897%
+Source Step = 73.9268%
+Source Step = 74.2639%
+vernier = 0.0166855
+Source Step = 74.6178%
+Source Step = 75.1234%
+Source Step = 75.6291%
+Source Step = 76.1347%
+Source Step = 76.6403%
+Source Step = 77.1459%
+vernier = 0.0250282
+Source Step = 77.9043%
+Source Step = 78.6628%
+Source Step = 79.4212%
+Source Step = 80.1796%
+Source Step = 80.9381%
+vernier = 0.0375423
+Source Step = 82.0378%
+Source Step = 83.1754%
+Source Step = 84.3131%
+Source Step = 85.4507%
+Source Step = 86.5884%
+vernier = 0.0563135
+Source Step = 88.1811%
+Source Step = 89.8876%
+Source Step = 90.0742%
+Source Step = 90.1009%
+Source Step = 90.1275%
+Source Step = 90.1542%
+Source Step = 90.1809%
+Source Step = 90.2075%
+Source Step = 90.2342%
+Source Step = 90.2609%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 99.1894%
+vernier = 0.015625
+Source Step = 99.0681%
+Source Step = 99.0977%
+Source Step = 99.1272%
+Source Step = 99.1568%
+Source Step = 99.1864%
+Source Step = 99.216%
+Source Step = 99.2456%
+Source Step = 99.2752%
+Source Step = 99.3048%
+Source Step = 99.3344%
+Source Step = 99.364%
+Source Step = 99.3936%
+Source Step = 99.4232%
+Source Step = 99.4528%
+Source Step = 99.4824%
+Source Step = 99.512%
+Source Step = 99.5415%
+Source Step = 99.5711%
+Source Step = 99.6007%
+Source Step = 99.6303%
+Source Step = 99.6599%
+Source Step = 99.6895%
+Source Step = 99.7191%
+Source Step = 99.7487%
+Source Step = 99.7783%
+Source Step = 99.8079%
+Source Step = 99.8375%
+Source Step = 99.8671%
+Source Step = 99.8967%
+Source Step = 99.9263%
+Source Step = 99.9558%
+Source Step = 99.9854%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping aborted.
+Pseudo Transient succeeded in finding the operating point at 24.6715 s.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u2:in     d:u2:ip     d:u2:on     d:u2:op     d:u2:gn
+Model:    u2:di       u2:di       u2:do       u2:do       u2:dg
+Id:      1.20e-11    1.05e-11    1.51e-11    8.89e-12    4.89e-11
+Vd:      1.20e+01    1.05e+01    1.51e+01    8.88e+00    4.88e+01
+Req:     1.00e-12    1.00e-12    1.00e-12    1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:gp     d:u1:in     d:u1:ip     d:u1:on     d:u1:op
+Model:    u2:dg       u1:di       u1:di       u1:do       u1:do
+Id:      2.92e-11    1.20e-11    1.05e-11    8.96e-12    1.50e-11
+Vd:      2.92e+01    1.20e+01    1.05e+01    8.95e+00    1.50e+01
+Req:     1.00e-12    1.00e-12    1.00e-12    1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:gn     d:u1:gp
+Model:    u1:dg       u1:dg
+Id:      4.10e-11    3.71e-11
+Vd:      4.09e+01    3.71e+01
+Req:     1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00
 
 
-Date: Thu Apr 24 13:21:28 2025
-Total elapsed time: 0.247 seconds.
+
+Date: Mon Nov 17 02:28:40 2025
+Total elapsed time: 88.899 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 4072
+totiter = 188541
 traniter = 0
 tranpoints = 0
 accept = 0
-rejected = 0
-matrix size = 167
-fillins = 109
+rejected = 10
+matrix size = 182
+fillins = 1477
 solver = Normal
-Thread vector: 6.8/4.0[3] 0.0/0.0[0] 2.6/2.2[3] 0.4/0.7[1]  2592/500
-Matrix Compiler1: 15.98 KB object code size  3.5/1.1/[0.8]
-Matrix Compiler2: 16.59 KB object code size  1.1/1.1/[0.7]
+Matrix Compiler1: 249.54 KB object code size  18.2/7.5/[4.6]
+Matrix Compiler2: 41.89 KB object code size  1.4/1.7/[0.6]
 
