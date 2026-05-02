@@ -12,3 +12,4 @@ Gerber/*.drl
 
 production/*
 *.json
+.history/
