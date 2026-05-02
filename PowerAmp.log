@@ -1,0 +1,20 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\EosinY\Documents\KiCad\Proj\ElectronicLoad\Main_SMD_Controller\PowerAmp.net
+Start Time: Fri May  1 00:33:37 2026
+solver = Normal
+Maximum thread count: 28
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node nc_02 is floating.
+
+Direct Newton iteration succeeded in finding operating point.
+Changing Tseed to 1.95312e-12
+Changing Tseed to 1.95312e-14
+Total elapsed time: 0.192 seconds.
+
+Files loaded:
+C:\Users\EosinY\Documents\KiCad\Proj\ElectronicLoad\Main_SMD_Controller\PowerAmp.net
+C:\Users\EosinY\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\EosinY\AppData\Local\LTspice\lib\sub\UniversalOpAmp1.lib
+

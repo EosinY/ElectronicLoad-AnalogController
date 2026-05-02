@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\EosinY\Documents\KiCad\Proj\ElectronicLoad\Main_SMD_Controller\PIctrl.net
-Start Time: Sat Apr 25 12:18:36 2026
+Start Time: Mon Apr 13 22:31:31 2026
 solver = Normal
 Maximum thread count: 28
 tnom = 27
@@ -13,7 +13,7 @@ Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip a
 Starting source stepping with srcstepmethod=0
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.088 seconds.
+Total elapsed time: 0.093 seconds.
 
 Files loaded:
 C:\Users\EosinY\Documents\KiCad\Proj\ElectronicLoad\Main_SMD_Controller\PIctrl.net
