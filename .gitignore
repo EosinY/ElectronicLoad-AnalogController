@@ -12,3 +12,9 @@ Gerber/*.drl
 
 production/*
 *.json
+.history/
+*.asc
+*.log
+*.raw
+*.asy
+*.mod

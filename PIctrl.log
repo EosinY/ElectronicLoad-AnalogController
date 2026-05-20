@@ -1,22 +1,16 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\EosinY\Documents\KiCad\Proj\ElectronicLoad\Main_SMD_Controller\PIctrl.net
-Start Time: Mon Apr 13 22:31:31 2026
+Start Time: Wed May 20 20:09:37 2026
 solver = Normal
 Maximum thread count: 28
 tnom = 27
 temp = 27
 method = trap
-Early termination of direct N-R iteration.
-Direct Newton iteration failed to find operating point.
-Starting Gmin stepping
-Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
-Starting source stepping with srcstepmethod=0
-Source stepping succeeded in finding the operating point.
-
-Total elapsed time: 0.093 seconds.
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.039 seconds.
 
 Files loaded:
 C:\Users\EosinY\Documents\KiCad\Proj\ElectronicLoad\Main_SMD_Controller\PIctrl.net
-C:\Users\EosinY\AppData\Local\LTspice\lib\sub\LTC.lib
+C:\Users\EosinY\AppData\Local\LTspice\lib\cmp\standard.bjt
 C:\Users\EosinY\AppData\Local\LTspice\lib\sub\UniversalOpAmp1.lib
 
