@@ -1443,24 +1443,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
+			(property "Reference" "U304"
+				(at -20.32 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "MCP4725xxx-xCH"
-				(at 8.89 6.35 0)
+			(property "Value" "MCP4726A0T-ECH"
+				(at -20.32 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
@@ -1486,6 +1488,17 @@
 				)
 			)
 			(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sengoku_code" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1625,7 +1638,7 @@
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "A0"
+					(name "V_{ref}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5882,6 +5895,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 41.91) (xy 185.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd054cb-d5f1-4641-a0ff-6948c8cfe2a7")
+	)
+	(wire
+		(pts
 			(xy 62.23 22.86) (xy 66.04 22.86)
 		)
 		(stroke
@@ -5919,6 +5942,16 @@
 			(type default)
 		)
 		(uuid "2379522d-7138-48f3-82aa-624c2e43eb22")
+	)
+	(wire
+		(pts
+			(xy 210.82 101.6) (xy 214.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f4afdf-83b9-41ac-beb4-fc2ce4bd2f2e")
 	)
 	(wire
 		(pts
@@ -6112,6 +6145,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 109.22) (xy 214.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5e4115-3011-4dd5-8a38-61cbb4dc9c99")
+	)
+	(wire
+		(pts
 			(xy 139.7 31.75) (xy 139.7 44.45)
 		)
 		(stroke
@@ -6249,16 +6292,6 @@
 			(type default)
 		)
 		(uuid "47e2cd03-e96e-461f-a6d9-3f73cd1893f9")
-	)
-	(wire
-		(pts
-			(xy 210.82 106.68) (xy 214.63 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4809a92f-03c4-4c0f-a368-8cce295afac6")
 	)
 	(wire
 		(pts
@@ -6574,6 +6607,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 99.06) (xy 214.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4739ba-b24c-4bf1-9f67-70018d51142b")
+	)
+	(wire
+		(pts
 			(xy 41.91 41.91) (xy 62.23 41.91)
 		)
 		(stroke
@@ -6621,16 +6664,6 @@
 			(type default)
 		)
 		(uuid "644c872c-1cb7-4b56-8cc0-12c8d48709ec")
-	)
-	(wire
-		(pts
-			(xy 210.82 99.06) (xy 214.63 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64561ff8-00bf-4f34-aa68-3c740e11b00c")
 	)
 	(wire
 		(pts
@@ -6881,16 +6914,6 @@
 			(type default)
 		)
 		(uuid "7a9f0305-a1ed-4a97-a26f-5dfba42dc3e2")
-	)
-	(wire
-		(pts
-			(xy 210.82 109.22) (xy 214.63 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b92c3a5-2d59-4aee-8fd8-e91cb14d9ffd")
 	)
 	(wire
 		(pts
@@ -7664,16 +7687,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 101.6) (xy 214.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdc55ca4-1f6b-401d-bc0a-e69c53ed5662")
-	)
-	(wire
-		(pts
 			(xy 119.38 133.35) (xy 121.92 133.35)
 		)
 		(stroke
@@ -7955,16 +7968,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 41.91) (xy 184.15 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbea55f4-2d85-4c32-9a91-c7f1f24efe10")
-	)
-	(wire
-		(pts
 			(xy 30.48 34.29) (xy 62.23 34.29)
 		)
 		(stroke
@@ -8072,16 +8075,6 @@
 			(type default)
 		)
 		(uuid "e2272a41-daaf-4f63-8dd1-4661b5d5a9d0")
-	)
-	(wire
-		(pts
-			(xy 185.42 41.91) (xy 184.15 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e291a5a1-17ff-467e-a439-8b702e66c9ad")
 	)
 	(wire
 		(pts
@@ -8295,6 +8288,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 106.68) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc85a794-dc19-4c3d-aeb6-05f41e12a786")
+	)
+	(wire
+		(pts
 			(xy 95.25 185.42) (xy 96.52 185.42)
 		)
 		(stroke
@@ -8353,6 +8356,16 @@
 		)
 		(uuid "0cd97bcc-07b2-40f6-b9a6-30c7c92b8b4c")
 	)
+	(label "OFSmeas"
+		(at 214.63 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eebe80b-d8e1-4e72-9216-1e348c00aefc")
+	)
 	(label "SDA"
 		(at 177.8 104.14 180)
 		(effects
@@ -8373,6 +8386,16 @@
 		)
 		(uuid "18cfe9b2-2265-44bf-9aa9-d34809ec585e")
 	)
+	(label "Vmeas+"
+		(at 214.63 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18e3b2fe-171d-4626-92f5-f4f9e5d72fbb")
+	)
 	(label "SAVE"
 		(at 147.32 36.83 0)
 		(effects
@@ -8382,6 +8405,16 @@
 			(justify left bottom)
 		)
 		(uuid "281cd2d9-948c-4789-aaec-3721bf765249")
+	)
+	(label "Temp"
+		(at 214.63 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b2b7678-e861-4b56-9154-bb30f361983a")
 	)
 	(label "CAL_MODE"
 		(at 147.32 41.91 0)
@@ -8403,6 +8436,16 @@
 		)
 		(uuid "40a4255c-f7d4-473e-bdfd-bd897e90d525")
 	)
+	(label "Imeas-"
+		(at 214.63 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "411b702a-0e42-4d83-9d06-b82afd813fad")
+	)
 	(label "SCL"
 		(at 182.88 36.83 180)
 		(effects
@@ -8412,6 +8455,16 @@
 			(justify right bottom)
 		)
 		(uuid "429a48c5-244a-466d-a640-40897e5224e6")
+	)
+	(label "Imeas+"
+		(at 214.63 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47a66230-dbe2-4fed-876b-3127a1058a79")
 	)
 	(label "Imeas"
 		(at 271.78 95.25 0)
@@ -8442,16 +8495,6 @@
 			(justify left bottom)
 		)
 		(uuid "596d41a9-9c7c-4aef-a8ba-30575ce0e5be")
-	)
-	(label "Imeas-"
-		(at 214.63 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64e627b2-9420-4c8a-9da0-21faba916aed")
 	)
 	(label "GAIN_0X"
 		(at 69.85 138.43 180)
@@ -8492,26 +8535,6 @@
 			(justify left bottom)
 		)
 		(uuid "780221cb-e167-40f7-8c90-809b728f65e6")
-	)
-	(label "Vmeas+"
-		(at 214.63 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b31bc71-a33a-4070-be8f-2e22fe682381")
-	)
-	(label "OFSmeas"
-		(at 214.63 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "86fc894b-06b4-4cbf-89cb-ab8f886e02b8")
 	)
 	(label "Temp"
 		(at 95.25 135.89 0)
@@ -8583,6 +8606,16 @@
 		)
 		(uuid "9f98d707-696c-42cb-aac3-4295f255d3af")
 	)
+	(label "Vmeas-"
+		(at 214.63 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a362beeb-0db4-4f44-aefc-d235739ccfc5")
+	)
 	(label "OFS"
 		(at 271.78 137.16 0)
 		(effects
@@ -8612,16 +8645,6 @@
 			(justify right bottom)
 		)
 		(uuid "bef8c8af-8400-48c9-99c5-24114d51564f")
-	)
-	(label "Imeas+"
-		(at 214.63 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c210e6b8-7bfb-4ec9-9110-85d6e2063f93")
 	)
 	(label "Imeas-"
 		(at 234.95 99.06 180)
@@ -8683,16 +8706,6 @@
 		)
 		(uuid "d4598929-dac8-462e-b9ca-0acb0509e2bc")
 	)
-	(label "Vmeas-"
-		(at 214.63 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da829f93-5119-4c6b-b2cc-6c5f923c3302")
-	)
 	(label "Temp"
 		(at 243.84 71.12 180)
 		(effects
@@ -8722,16 +8735,6 @@
 			(justify left bottom)
 		)
 		(uuid "e20bf0f2-7f0a-43a0-b091-ac743b1660f4")
-	)
-	(label "Temp"
-		(at 214.63 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3e20453-8e9d-4572-8e82-3186ffcc2f20")
 	)
 	(label "LOAD"
 		(at 147.32 39.37 0)
@@ -8763,6 +8766,17 @@
 			(justify left)
 		)
 		(uuid "2a9d7e6f-afb7-4a6f-b2cc-3ef227bf03da")
+	)
+	(hierarchical_label "ADC_Vref"
+		(shape input)
+		(at 182.88 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cd7dc93-b522-4d99-9005-976112eedcb2")
 	)
 	(hierarchical_label "Imeas"
 		(shape input)
@@ -8925,84 +8939,6 @@
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
 					(reference "#PWR0305")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 184.15 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0348157b-d7f0-4db1-8f79-e743783539c2")
-		(property "Reference" "#PWR0328"
-			(at 184.15 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 184.15 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 184.15 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98da308e-2f97-4d34-a922-d1c4794c63ad")
-		)
-		(instances
-			(project "Main_SMD_Controller_v2"
-				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -10370,7 +10306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "digikey-footprints:TO-92-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 251.46 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -17383,7 +17319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP4725A0T-ECH"
+		(property "Value" "MCP4726A0T-ECH"
 			(at 175.26 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)

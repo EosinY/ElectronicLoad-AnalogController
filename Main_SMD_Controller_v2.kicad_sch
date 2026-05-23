@@ -6210,6 +6210,16 @@
 		)
 		(uuid "62e6fd8c-3838-406b-80df-26f689ca4fe3")
 	)
+	(text "Memo: GAIN2,3を入れ替える GreenPAKのFWを変更"
+		(exclude_from_sim no)
+		(at 142.24 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62fe859a-048a-45ca-806b-2b51215eaf27")
+	)
 	(text "V_{IN}=1/40*V_{SENS}"
 		(exclude_from_sim no)
 		(at 212.09 53.34 0)
@@ -6313,7 +6323,7 @@
 	)
 	(text "2.048V"
 		(exclude_from_sim no)
-		(at 208.28 130.81 0)
+		(at 208.28 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6401,12 +6411,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a25d907-42c7-4d52-9a57-3943cc024cb5")
-	)
-	(junction
-		(at 213.36 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a2657f8-ce18-4ae2-b7bb-a14603c8b039")
 	)
 	(junction
 		(at 67.31 162.56)
@@ -6623,6 +6627,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf2a683f-bc60-43c3-bc91-c44c62e1e417")
+	)
+	(junction
+		(at 204.47 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3bd02d6-25ee-4d2d-a772-7357c10f5aab")
 	)
 	(junction
 		(at 181.61 124.46)
@@ -7316,7 +7326,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 128.27) (xy 213.36 132.08)
+			(xy 204.47 128.27) (xy 204.47 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8066,6 +8076,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 132.08) (xy 213.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87eccc7b-41e4-4e36-8334-5e157dbd5053")
+	)
+	(wire
+		(pts
 			(xy 116.84 26.67) (xy 121.92 26.67)
 		)
 		(stroke
@@ -8786,13 +8806,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 132.08) (xy 213.36 132.08)
+			(xy 203.2 132.08) (xy 204.47 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cce8e08e-7078-4010-8e6e-8928fa0d4f95")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 59.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6ef59f-87c0-414f-a466-5a6e644cb352")
 	)
 	(wire
 		(pts
@@ -9578,6 +9608,16 @@
 		)
 		(uuid "045b79f6-3466-413e-89e0-b33914733e3c")
 	)
+	(label "GAIN2"
+		(at 121.92 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bd46e67-73d8-42d2-89b9-7a68fc223a68")
+	)
 	(label "Vmeas"
 		(at 59.69 58.42 0)
 		(effects
@@ -9587,6 +9627,26 @@
 			(justify left bottom)
 		)
 		(uuid "0e06769e-ce65-46ef-9849-b97027986983")
+	)
+	(label "ADC_Vref"
+		(at 213.36 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f2f16b3-ffa7-46e4-9ce3-cd1329d19199")
+	)
+	(label "ADC_Vref"
+		(at 59.69 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f381c35-4cbe-4277-a5a5-603247bebd66")
 	)
 	(label "rt"
 		(at 220.98 63.5 180)
@@ -9768,6 +9828,16 @@
 		)
 		(uuid "839e0298-910e-4204-98bf-31e6c6e930a9")
 	)
+	(label "GAIN3"
+		(at 121.92 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8963b3b8-dfb3-4966-950c-01b6dcdd6154")
+	)
 	(label "RLY_LOUT"
 		(at 59.69 48.26 0)
 		(effects
@@ -9828,16 +9898,6 @@
 		)
 		(uuid "ced56c26-d9b3-4a71-80b1-9c702be27d67")
 	)
-	(label "GAIN2"
-		(at 121.92 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfe634c3-cca2-44e5-8c7f-05c583c8ab27")
-	)
 	(label "Imeas"
 		(at 201.93 87.63 180)
 		(effects
@@ -9857,16 +9917,6 @@
 			(justify left bottom)
 		)
 		(uuid "e6874a11-6da9-4fe0-94fa-0d5b1a6c62b7")
-	)
-	(label "GAIN3"
-		(at 121.92 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9c0754a-2dde-4d4f-a0f0-8d4a4fe66378")
 	)
 	(label "RLY_LOUT"
 		(at 238.76 33.02 180)
@@ -12925,7 +12975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B2B-XH-A"
+		(property "Value" "B2P3-VH-3.3(LF)(SN)"
 			(at 212.09 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12936,7 +12986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B2P3-VH_1x02_P7.92mm_Vertical"
 			(at 209.55 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -18015,7 +18065,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 213.36 128.27 0)
+		(at 204.47 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18025,7 +18075,7 @@
 		(dnp no)
 		(uuid "b50da77a-6f75-485b-9a6b-f335032b08de")
 		(property "Reference" "TP103"
-			(at 217.17 125.73 0)
+			(at 208.28 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18036,7 +18086,7 @@
 			)
 		)
 		(property "Value" "RCTCTE"
-			(at 217.17 128.27 0)
+			(at 208.28 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18047,7 +18097,7 @@
 			)
 		)
 		(property "Footprint" "AM_Conn_TP:RCTCE"
-			(at 218.44 128.27 0)
+			(at 209.55 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18058,7 +18108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 128.27 0)
+			(at 209.55 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18069,7 +18119,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 213.36 128.27 0)
+			(at 204.47 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18080,7 +18130,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 213.36 128.27 0)
+			(at 204.47 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18091,7 +18141,7 @@
 			)
 		)
 		(property "Sengoku_code" ""
-			(at 213.36 128.27 0)
+			(at 204.47 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19246,7 +19296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 163.83 28.448 90)
 			(hide yes)
 			(show_name no)
@@ -19698,7 +19748,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 204.978 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -21428,7 +21478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 204.978 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -22529,11 +22579,7 @@
 		)
 	)
 	(group ""
-		(uuid "8ca83a05-489f-444b-bb1f-e60c9420a946")
-		(members "403ef226-6633-4c83-ab8a-01415e3ffac7" "ab16d228-7bd2-4212-bd9b-7f549ffd1b8f")
-	)
-	(group ""
-		(uuid "8ca83a05-489f-444b-bb1f-e60c9420a946")
+		(uuid "8ca83a05-489f-444b-bb1f-e60c9420a947")
 		(members "403ef226-6633-4c83-ab8a-01415e3ffac7" "ab16d228-7bd2-4212-bd9b-7f549ffd1b8f")
 	)
 	(sheet
@@ -22614,7 +22660,7 @@
 	)
 	(sheet
 		(at 40.64 34.29)
-		(size 16.51 30.48)
+		(size 16.51 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22639,7 +22685,7 @@
 			)
 		)
 		(property "Sheetfile" "v2_interface.kicad_sch"
-			(at 40.64 65.786 0)
+			(at 40.64 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22732,6 +22778,16 @@
 		(pin "RLY_LOUT" input
 			(at 57.15 48.26 0)
 			(uuid "c8c28ca7-6174-4cb2-9af9-84759d173483")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_Vref" input
+			(at 57.15 63.5 0)
+			(uuid "3ef7616c-b701-4f66-ba91-8d15e7cde235")
 			(effects
 				(font
 					(size 1.27 1.27)
