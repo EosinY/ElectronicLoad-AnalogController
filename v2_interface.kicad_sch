@@ -10105,7 +10105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "252b669e-9fcb-432d-8e1b-5ab9c85ce2c1")
-		(property "Reference" "#PWR0339"
+		(property "Reference" "#PWR0338"
 			(at 245.11 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10165,7 +10165,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0339")
+					(reference "#PWR0338")
 					(unit 1)
 				)
 			)
@@ -10910,7 +10910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a7f8b6d-8ac1-49aa-bb8b-7951fc890962")
-		(property "Reference" "#PWR0341"
+		(property "Reference" "#PWR0340"
 			(at 256.54 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10970,7 +10970,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0341")
+					(reference "#PWR0340")
 					(unit 1)
 				)
 			)
@@ -11115,7 +11115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3dc651c6-53d8-4814-ab9e-d5837069747c")
-		(property "Reference" "#PWR0336"
+		(property "Reference" "#PWR0335"
 			(at 208.28 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11174,7 +11174,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0336")
+					(reference "#PWR0335")
 					(unit 1)
 				)
 			)
@@ -11389,7 +11389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "437eda15-0f05-4b5b-a53f-e447e1f72fcf")
-		(property "Reference" "#PWR0343"
+		(property "Reference" "#PWR0342"
 			(at 256.54 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11449,7 +11449,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0343")
+					(reference "#PWR0342")
 					(unit 1)
 				)
 			)
@@ -11787,7 +11787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45e49776-751f-4c21-b096-a13dd7ba1df2")
-		(property "Reference" "#PWR0335"
+		(property "Reference" "#PWR0334"
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11846,7 +11846,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0335")
+					(reference "#PWR0334")
 					(unit 1)
 				)
 			)
@@ -12086,7 +12086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "530a6398-25be-4a32-8c1b-e1305d750f38")
-		(property "Reference" "#PWR0340"
+		(property "Reference" "#PWR0339"
 			(at 245.11 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12146,7 +12146,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0340")
+					(reference "#PWR0339")
 					(unit 1)
 				)
 			)
@@ -12360,7 +12360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "590c8a08-bb69-4c58-82f4-e67c80f753b9")
-		(property "Reference" "#PWR0337"
+		(property "Reference" "#PWR0336"
 			(at 213.36 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12420,7 +12420,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0337")
+					(reference "#PWR0336")
 					(unit 1)
 				)
 			)
@@ -14054,7 +14054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8801d1f3-6061-4e11-9b4c-a9319314a6ee")
-		(property "Reference" "#PWR0334"
+		(property "Reference" "#PWR0333"
 			(at 200.66 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14114,7 +14114,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0334")
+					(reference "#PWR0333")
 					(unit 1)
 				)
 			)
@@ -14796,7 +14796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "968f9985-3d4f-40b5-9beb-b1061c733a45")
-		(property "Reference" "#PWR0333"
+		(property "Reference" "#PWR0332"
 			(at 200.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14856,7 +14856,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0333")
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -14876,7 +14876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "978b91f1-b6ef-45c9-8f1c-3f84ff39a374")
-		(property "Reference" "#PWR0345"
+		(property "Reference" "#PWR0344"
 			(at 256.54 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14936,7 +14936,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0345")
+					(reference "#PWR0344")
 					(unit 1)
 				)
 			)
@@ -14956,7 +14956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fabc530-a7e8-4147-85c2-0f686970c476")
-		(property "Reference" "#PWR0342"
+		(property "Reference" "#PWR0341"
 			(at 256.54 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15016,7 +15016,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0342")
+					(reference "#PWR0341")
 					(unit 1)
 				)
 			)
@@ -15112,7 +15112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a38c4aac-e4dd-4381-9cd4-c7506d0dc6c0")
-		(property "Reference" "#PWR0330"
+		(property "Reference" "#PWR0329"
 			(at 190.5 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15172,7 +15172,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0330")
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -15291,7 +15291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7a58347-e57b-4b04-83e6-08cfe5d5e66a")
-		(property "Reference" "#PWR0329"
+		(property "Reference" "#PWR0328"
 			(at 190.5 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15351,7 +15351,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0329")
+					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -15371,7 +15371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab0195b6-133b-4583-b6ca-1cb8429df97c")
-		(property "Reference" "#PWR0344"
+		(property "Reference" "#PWR0343"
 			(at 256.54 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15431,7 +15431,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0344")
+					(reference "#PWR0343")
 					(unit 1)
 				)
 			)
@@ -15758,7 +15758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b012db51-8d3f-4de3-8291-b9b924265847")
-		(property "Reference" "#PWR0331"
+		(property "Reference" "#PWR0330"
 			(at 195.58 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -15818,7 +15818,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0331")
+					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -17876,7 +17876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea8b9f40-53a1-4577-b1a6-71bab65fd491")
-		(property "Reference" "#PWR0332"
+		(property "Reference" "#PWR0331"
 			(at 195.58 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -17936,7 +17936,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0332")
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -18285,7 +18285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed50d6b3-525d-450c-8d53-75c4dccf66eb")
-		(property "Reference" "#PWR0338"
+		(property "Reference" "#PWR0337"
 			(at 243.84 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18344,7 +18344,7 @@
 		(instances
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2/e2de0e16-a9d6-47f1-91b9-10aa4d2542d2"
-					(reference "#PWR0338")
+					(reference "#PWR0337")
 					(unit 1)
 				)
 			)

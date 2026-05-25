@@ -60,7 +60,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|110250000|146150000|b0013fdd-45b2-43d2-b75b-d58841bb06d8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|121000000|81347500|84178191-f437-4796-91a4-723aa644d3bd|c2442f44-fef4-4816-b7d6-94734dd54c93",
+          ""
+        ],
+        [
+          "silk_overlap|121000000|88120000|ba8de2b9-4536-4528-99b0-8dd34eb34935|c2442f44-fef4-4816-b7d6-94734dd54c93",
+          ""
+        ],
+        [
+          "silk_overlap|128000000|70507500|4187ebe3-1db2-4ffa-8b0b-8840267e2a2c|eabe4dce-cfd3-4fae-a040-7e65a18f3a50",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -530,7 +547,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -779,7 +796,7 @@
         "uuid": "ad678d38-2bf7-47ec-94cd-212edb6f07b2"
       }
     ],
-    "used_designators": "J111-112,#PWR146",
+    "used_designators": "D101,D301-303,#PWR101-146,#PWR201-217,#PWR301-344,C101-125,C201-214,C301-312,FB101-104,P101-102,H101-104,HS201,J101-112,J301-302,Q201-205,Q301-305,R101-117,R201-225,R301-324,RLY101,RV101-104,RV201,TP101-104,TP201-202,TP301,U101-107,U201-202,U301-306",
     "variants": []
   },
   "sheets": [
