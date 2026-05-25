@@ -7450,6 +7450,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 63.5) (xy 77.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36545cba-025f-495f-b81f-b8bd5821ec29")
+	)
+	(wire
+		(pts
 			(xy 238.76 33.02) (xy 243.84 33.02)
 		)
 		(stroke
@@ -7757,6 +7767,16 @@
 			(type default)
 		)
 		(uuid "5cb2ff65-5bda-47b3-82e5-8419448dc51f")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 77.47 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4559fa-7495-423b-8443-1bf5f91865bc")
 	)
 	(wire
 		(pts
@@ -8580,6 +8600,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 54.61) (xy 80.01 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfb3aed-39f3-4f08-8e8f-6e6904361b8b")
+	)
+	(wire
+		(pts
 			(xy 113.03 73.66) (xy 123.19 73.66)
 		)
 		(stroke
@@ -8677,6 +8707,16 @@
 			(type default)
 		)
 		(uuid "b21fd8d7-ccc6-4b2a-8eba-c64a14b6e56e")
+	)
+	(wire
+		(pts
+			(xy 77.47 60.96) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3628d32-044e-4def-b4f1-1eb13c9b1972")
 	)
 	(wire
 		(pts
@@ -8850,7 +8890,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 52.07) (xy 59.69 52.07)
+			(xy 57.15 52.07) (xy 80.01 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9127,6 +9167,16 @@
 			(type default)
 		)
 		(uuid "dea0e21e-4057-432f-89d2-528408c873cd")
+	)
+	(wire
+		(pts
+			(xy 80.01 63.5) (xy 77.47 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df90312c-a35b-4412-b867-72024d82bfbb")
 	)
 	(wire
 		(pts
@@ -9417,6 +9467,16 @@
 			(type default)
 		)
 		(uuid "f7552bad-4690-4289-bc65-419263a9fefe")
+	)
+	(wire
+		(pts
+			(xy 80.01 57.15) (xy 77.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9fe4952-0586-43a5-8209-3d15ce92cec5")
 	)
 	(wire
 		(pts
@@ -10032,16 +10092,6 @@
 		)
 		(uuid "acd900a0-027e-49ed-b8f6-4a13189c6c44")
 	)
-	(label "rt"
-		(at 59.69 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ccd5e6c8-a513-457e-a580-0d933a375ba9")
-	)
 	(label "Imeas"
 		(at 220.98 60.96 180)
 		(effects
@@ -10051,6 +10101,16 @@
 			(justify right bottom)
 		)
 		(uuid "ced56c26-d9b3-4a71-80b1-9c702be27d67")
+	)
+	(label "rt"
+		(at 76.2 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d79ac33a-41dd-42b8-90ed-9a7e2cb47f2e")
 	)
 	(label "Imeas"
 		(at 201.93 87.63 180)
@@ -11829,6 +11889,85 @@
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2"
 					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 77.47 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2770657a-b460-4843-861f-aeb7728a163a")
+		(property "Reference" "#PWR0146"
+			(at 77.47 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a13d84d-4fcc-4d23-99f0-078a9c84a753")
+		)
+		(instances
+			(project "Main_SMD_Controller_v2"
+				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2"
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -14780,7 +14919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P2.54mm_Vertical_Vishay_IM-1"
 			(at 62.23 142.748 90)
 			(hide yes)
 			(show_name no)
@@ -17338,7 +17477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_THT:L_Axial_L5.3mm_D2.2mm_P2.54mm_Vertical_Vishay_IM-1"
 			(at 62.23 122.428 90)
 			(hide yes)
 			(show_name no)
@@ -22390,6 +22529,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 85.09 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4a26daa-c292-4ddb-a182-48a4b7a6246e")
+		(property "Reference" "J111"
+			(at 87.63 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B2B-XH-A"
+			(at 87.63 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 85.09 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 85.09 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a8e38d8a-cc60-4997-aba3-5601660e7428")
+		)
+		(pin "1"
+			(uuid "a051464e-e8f6-4a7d-9b07-7a2433307405")
+		)
+		(instances
+			(project "Main_SMD_Controller_v2"
+				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2"
+					(reference "J111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 52.07 177.8 0)
 		(unit 1)
@@ -22625,6 +22846,143 @@
 			(project "Main_SMD_Controller_v2"
 				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2"
 					(reference "J104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 85.09 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f9606256-2a16-40fe-88de-a5786ebfb46c")
+		(property "Reference" "J112"
+			(at 87.376 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PH-1X3SG"
+			(at 87.376 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 85.09 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/PH-1xXXSG-AD.pdf"
+			(at 85.09 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "103949"
+			(at 85.09 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Marutsu_code" ""
+			(at 85.09 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" ""
+			(at 85.09 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 85.09 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sengoku_code" ""
+			(at 85.09 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d279d143-8d17-4583-86ca-21461a60a192")
+		)
+		(pin "2"
+			(uuid "0e41bae5-bff3-42d4-b351-de682a1a3109")
+		)
+		(pin "3"
+			(uuid "52a0a942-6442-410d-a946-2057d5670046")
+		)
+		(instances
+			(project "Main_SMD_Controller_v2"
+				(path "/ad678d38-2bf7-47ec-94cd-212edb6f07b2"
+					(reference "J112")
 					(unit 1)
 				)
 			)
