@@ -5214,7 +5214,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/rk73z.pdf"
 			(at 101.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5248,6 +5248,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 101.6 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "111619"
 			(at 101.6 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -5315,7 +5326,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/rk73z.pdf"
 			(at 33.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5349,6 +5360,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 33.02 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "111619"
 			(at 33.02 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -5601,7 +5623,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/35_ext_08_0.pdf"
 			(at 195.58 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5624,6 +5646,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 195.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "110701"
 			(at 195.58 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6044,7 +6077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/rk73z.pdf"
 			(at 86.36 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6078,6 +6111,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 86.36 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "111619"
 			(at 86.36 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -6238,7 +6282,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/umk107f104za-t.pdf"
 			(at 43.18 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6283,6 +6327,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 43.18 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code2" "116143"
 			(at 43.18 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6373,6 +6428,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 139.7 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "109229"
 			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6816,7 +6882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/umk107f104za-t.pdf"
 			(at 119.38 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6861,6 +6927,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 119.38 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code2" "116143"
 			(at 119.38 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6953,7 +7030,7 @@
 				)
 			)
 		)
-		(property "Sengoku_code" ""
+		(property "Sengoku_code" "EEHD-57C5"
 			(at 154.94 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7712,7 +7789,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/sl1tte.pdfhttps://akizukidenshi.com/goodsaffix/sl1tte.pdf"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/rc.pdf"
 			(at 45.72 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7756,7 +7833,7 @@
 				)
 			)
 		)
-		(property "Akizuki_code" "106668"
+		(property "Akizuki_code" "114122"
 			(at 45.72 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -7931,7 +8008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/umk107f104za-t.pdf"
 			(at 119.38 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7976,6 +8053,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 119.38 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code2" "116143"
 			(at 119.38 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8122,7 +8210,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/sl1tte.pdfhttps://akizukidenshi.com/goodsaffix/sl1tte.pdf"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/rc.pdf"
 			(at 184.15 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8155,7 +8243,7 @@
 				)
 			)
 		)
-		(property "Akizuki_code" "10668"
+		(property "Akizuki_code" "114122"
 			(at 184.15 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -8316,7 +8404,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/rk73z.pdf"
 			(at 45.72 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8350,6 +8438,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 45.72 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "111619"
 			(at 45.72 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -8497,7 +8596,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/sl1tte.pdfhttps://akizukidenshi.com/goodsaffix/sl1tte.pdf"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/rc.pdf"
 			(at 119.38 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8518,7 +8617,7 @@
 				)
 			)
 		)
-		(property "Akizuki_code" "106668"
+		(property "Akizuki_code" "115029"
 			(at 119.38 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8815,6 +8914,17 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 2 pin"
+			(at 256.54 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "112537"
 			(at 256.54 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9173,7 +9283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/35_ext_08_0.pdf"
 			(at 229.87 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9196,6 +9306,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 229.87 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "110701"
 			(at 229.87 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9372,7 +9493,7 @@
 				)
 			)
 		)
-		(property "Value" "1000p"
+		(property "Value" "1000p(FL)"
 			(at 139.7063 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9393,7 +9514,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/GRM21B5C2E103FWAA.pdf"
 			(at 139.7 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9415,7 +9536,7 @@
 				)
 			)
 		)
-		(property "Akizuki_code" "115632"
+		(property "Akizuki_code" "115631"
 			(at 139.7 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -9715,7 +9836,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/35_ext_08_0.pdf"
 			(at 195.58 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9738,6 +9859,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 195.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "110701"
 			(at 195.58 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9807,7 +9939,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/sl1tte.pdfhttps://akizukidenshi.com/goodsaffix/sl1tte.pdf"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/rc.pdf"
 			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9828,7 +9960,7 @@
 				)
 			)
 		)
-		(property "Akizuki_code" "106668"
+		(property "Akizuki_code" "115321"
 			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10171,7 +10303,7 @@
 				)
 			)
 		)
-		(property "Sengoku_code" ""
+		(property "Sengoku_code" "EEHD-57CH"
 			(at 157.48 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10240,7 +10372,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/sl1tte.pdfhttps://akizukidenshi.com/goodsaffix/sl1tte.pdf"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/rk73b.pdf"
 			(at 62.23 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10284,7 +10416,7 @@
 				)
 			)
 		)
-		(property "Akizuki_code" "10668"
+		(property "Akizuki_code" "130359"
 			(at 62.23 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -10431,7 +10563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/sl1tte.pdfhttps://akizukidenshi.com/goodsaffix/sl1tte.pdf"
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/rk73b.pdf"
 			(at 62.23 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10475,7 +10607,7 @@
 				)
 			)
 		)
-		(property "Akizuki_code" "10668"
+		(property "Akizuki_code" "130359"
 			(at 62.23 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -10600,6 +10732,17 @@
 				)
 			)
 		)
+		(property "Akizuki_code" "115092"
+			(at 66.04 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "a37e641e-3ddb-4738-8e3d-8b53d046a5de")
 		)
@@ -10678,7 +10821,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/tsr-065.pdf"
 			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10734,6 +10877,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 156.21 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "106061"
 			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11178,7 +11332,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/35_ext_08_0.pdf"
 			(at 229.87 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11201,6 +11355,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 229.87 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "110701"
 			(at 229.87 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11272,7 +11437,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/umk107f104za-t.pdf"
 			(at 43.18 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11317,6 +11482,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 43.18 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code2" "116143"
 			(at 43.18 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11386,7 +11562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/checker_rc.pdf"
 			(at 99.06 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11420,6 +11596,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 93.98 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "131773"
 			(at 93.98 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11485,7 +11672,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/GRM21B5C2E103FWAA.pdf"
 			(at 72.39 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11549,7 +11736,7 @@
 				)
 			)
 		)
-		(property "Sengoku_code" ""
+		(property "Sengoku_code" "EEHD-5PLN"
 			(at 72.39 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -11844,7 +12031,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/checker_rc.pdf"
 			(at 34.29 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11878,6 +12065,17 @@
 			)
 		)
 		(property "Sengoku_code" ""
+			(at 39.37 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Akizuki_code" "131773"
 			(at 39.37 102.87 0)
 			(hide yes)
 			(show_name no)
