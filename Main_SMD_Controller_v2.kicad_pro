@@ -86,7 +86,7 @@
           ""
         ],
         [
-          "silk_overlap|121000000|85380000|ba8de2b9-4536-4528-99b0-8dd34eb34935|c2442f44-fef4-4816-b7d6-94734dd54c93",
+          "silk_overlap|121000000|88120000|ba8de2b9-4536-4528-99b0-8dd34eb34935|c2442f44-fef4-4816-b7d6-94734dd54c93",
           ""
         ],
         [
@@ -612,15 +612,15 @@
             "show": true
           },
           {
-            "group_by": true,
-            "label": "Value",
-            "name": "Value",
+            "group_by": false,
+            "label": "In_Stock",
+            "name": "In_Stock",
             "show": true
           },
           {
             "group_by": true,
-            "label": "Footprint",
-            "name": "Footprint",
+            "label": "Value",
+            "name": "Value",
             "show": true
           },
           {
@@ -657,6 +657,18 @@
             "group_by": false,
             "label": "Sengoku_code",
             "name": "Sengoku_code",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Status",
+            "name": "Status",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
             "show": true
           },
           {
@@ -715,12 +727,6 @@
           },
           {
             "group_by": false,
-            "label": "Status",
-            "name": "Status",
-            "show": false
-          },
-          {
-            "group_by": false,
             "label": "URL",
             "name": "URL",
             "show": false
@@ -754,6 +760,12 @@
             "label": "Sim.Type",
             "name": "Sim.Type",
             "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Simulation",
+            "name": "${EXCLUDE_FROM_SIM}",
+            "show": false
           }
         ],
         "filter_string": "",
@@ -761,7 +773,7 @@
         "include_excluded_from_bom": false,
         "name": "部品買う用",
         "sort_asc": true,
-        "sort_field": "Akizuki_code"
+        "sort_field": "Reference"
       }
     ],
     "bom_settings": {
@@ -786,15 +798,15 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "group_by": false,
+          "label": "In_Stock",
+          "name": "In_Stock",
           "show": true
         },
         {
           "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
+          "label": "Value",
+          "name": "Value",
           "show": true
         },
         {
@@ -804,7 +816,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": false
@@ -831,6 +843,18 @@
           "group_by": false,
           "label": "Sengoku_code",
           "name": "Sengoku_code",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
@@ -889,12 +913,6 @@
         },
         {
           "group_by": false,
-          "label": "Status",
-          "name": "Status",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "URL",
           "name": "URL",
           "show": false
@@ -927,6 +945,12 @@
           "group_by": false,
           "label": "Sim.Type",
           "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
           "show": false
         }
       ],
